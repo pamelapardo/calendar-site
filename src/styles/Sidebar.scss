@@ -1,0 +1,134 @@
+// --------------BURGER MENU------------------
+.burgerConteneur{
+    display: none;
+    z-index: 2;
+}
+
+#burgerConteneur{
+    display: none;
+}
+
+
+// -------------- SIDEBAR STYLES ------------------
+
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    width: 119px;
+    height: 100vh;
+    background-color: #FCFCFC;
+    box-shadow: -5px -5px 9px #FFFFFF, 4px 4px 9px rgba(198, 198, 198, 0.6);
+}
+
+.btns-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.profilepic{
+    height: 85px;
+    width: 85px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    filter: drop-shadow(4px 4px 7px rgba(198, 198, 198, 0.42));
+}
+
+.btn-sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 118px;
+    height: 81px;
+    
+
+    &.last{
+        border-top: #D1D1D1 solid 1px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+}
+
+.text-sidebar{
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.hidden-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    display: none;
+    min-height: 100%;
+    width: 100%;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+.btn-sidebar:hover .hid{
+    display: none;
+}
+
+.btn-sidebar:hover .hidden-btn{
+    font-size: 15px;
+    min-width: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(131.41deg, #FFFFFF 57.13%, #F9F9F9 87.5%);
+    box-shadow: 2px 2px 7px rgba(198, 198, 198, 0.6);
+
+    
+}
+
+
+
+/* responsive------------------------------------------------------------*/
+
+@media screen and (min-width:300px) and (max-width:1000px){
+
+    /*----------Burger menu------------*/
+
+
+    .sidebar-container{
+        display: none;
+    }
+
+
+    .burgerConteneur{
+        width: 26px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        color: #323232;
+        font-size: 19px;
+        cursor: pointer;
+        padding-right: 0px;
+        z-index: 2;
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .space-right{
+        padding-right: 105px;
+        font-weight: 500;
+    }
+
+
+    #burgerConteneur:checked + .sidebar-container {
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        justify-content: right;
+        background-color: #FCFCFC;
+        z-index: 3;
+        transition: transform 0.4s ease-in-out;
+    }
+}

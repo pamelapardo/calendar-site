@@ -1,0 +1,19 @@
+.calendar-container{
+    display: flex;
+    height: 380px;
+    min-width: 450px;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 25px 0px 30px;
+    padding: 0px;
+    border-radius: 20px;
+    background-color: #F4F4F4;
+    box-shadow: -5px -5px 9px #FFFFFF, 4px 4px 9px rgba(198, 198, 198, 0.6);
+}
+
+@media screen and (min-width:300px) and (max-width:1000px){
+
+    .calendar-container{
+        margin: 15px 25px 0px 5px;
+    }
+}

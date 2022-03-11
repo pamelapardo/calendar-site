@@ -1,0 +1,29 @@
+.info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F4F4F4;
+    margin: 35px;
+    padding: 28px;
+    border-radius: 20px;
+    box-shadow: -5px -5px 9px #FFFFFF, 4px 4px 9px rgba(198, 198, 198, 0.6);
+}
+
+.info-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.width-1{
+    width: 49%;
+}
+
+.row1{
+    width: 15%;
+}
+
+.row2{
+    width: 85%;
+}

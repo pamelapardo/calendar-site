@@ -1,0 +1,128 @@
+body{
+    font-family: Helvetica Neue !important;
+    margin: 0px;
+    color: #323232 !important;
+    background-color: #EDEDED !important;
+}
+
+a{
+    color: #323232 !important;
+}
+
+.display{
+    display: flex;
+    flex-direction: row;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.scroll{
+    overflow-y: initial !important;
+}
+
+
+// ----------------------------------    INPUTS STYLES   ---------------------------------------------
+input{
+    height: 1.5rem;
+    padding: 0rem 0.6rem;
+    background: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    box-sizing: border-box;
+    border-radius: 38px;
+}
+
+label{
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.input-space{
+    margin-bottom: 13px;
+}
+
+.input-style{
+    display: flex;
+    flex-direction: column;
+}
+
+input::placeholder{
+    font-family: Helvetica Neue;
+    font-size: 100%;
+    font-weight: 300;
+    color: #8E8E8E;
+}
+
+
+// ------------------------------------TITLES AND TEXTES------------------------------------
+h5 {
+    font-weight: 500 !important;
+    color: #323232;
+    margin: 5px 0px;
+    font-size: 92% !important;
+}
+
+h4{
+    font-weight: 700 !important;
+    color: #323232;
+    margin-bottom: 3px !important;
+    font-size: 99% !important;
+    flex-wrap: wrap;
+}
+
+h1{
+    margin: 16px 0px 15px 30px !important;
+}
+
+.event-title{
+    font-size: 86%;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.event-text{
+    font-size: 86%;
+    font-weight: 300;
+    margin-bottom: 0px;
+    flex-wrap: nowrap;
+}
+
+.text{
+    font-size: 86%;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.text-2{
+    font-weight: 500;
+    color: #323232;
+    font-size: 85%;
+    margin: 0px;
+}
+
+span{
+    font-weight: 300;
+    font-size: 87%;
+}
+
+
+// ------------------------------------IMAGES AND ICONS------------------------------------
+.img-2{
+    width: 47px;
+}
+
+.img-3{
+    width: 25px;
+}
+
+.icon-style{
+    height: 16px;
+    width: 18px;
+    margin-right: 5px;
+}

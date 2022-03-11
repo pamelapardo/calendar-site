@@ -1,0 +1,79 @@
+.small-event-shadow{
+    display: flex;
+    min-width: 450px;
+    flex-direction: row;
+    align-items: center;
+    margin: 13px 25px 10px 30px;
+    padding: 0px;
+    border-radius: 20px;
+    background-color: #F4F4F4;
+    box-shadow: -5px -5px 9px #FFFFFF, 4px 4px 9px rgba(198, 198, 198, 0.6);
+}
+
+.small-event-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    margin: 20px 20px 20px 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+// --------- SMALL EVENT COMPONENT STYLE -----------------
+.small-event-component-container{
+    min-height: 64px;
+}
+
+
+// --------------------------- COLOR ETIQUETTE -----------------------
+
+.color-1{
+    background-color: #F4B519;
+    height: 100%;
+    width: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.color-2{
+    background-color: #5DD8AF;
+    height: 100%;
+    width: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.color-3{
+    background-color: #F28F47;
+    height: 100%;
+    width: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.color-4{
+    background-color: #4E9CEA;
+    height: 100%;
+    width: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.color-5{
+    background-color: #B5DD83;
+    height: 100%;
+    width: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+@media screen and (min-width:300px) and (max-width:1000px){
+
+    .small-event-shadow{
+        margin: 25px 25px 0px 5px;
+    }
+}

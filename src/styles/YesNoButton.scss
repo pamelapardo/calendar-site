@@ -1,0 +1,53 @@
+.participation-text{
+    font-size: 83%;
+    margin-bottom: 4px;
+}
+
+.yn-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    width: 96px;
+}
+
+.button-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-left: 2px;
+    width: 48px;
+    border: 2px solid #213ECC;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.button-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3px;
+    height: 100%;
+    width: 48px;
+    border-top: 2px solid #213ECC;
+    border-bottom: 2px solid #213ECC;
+    border-right: 2px solid #213ECC;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.yn-text{
+    color: #213ECC;
+    font-size: 85%;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.button-right:hover{
+    background: #213ecc26;
+}
+
+.button-left:hover{
+    background: #213ecc26;
+}
